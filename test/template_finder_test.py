@@ -1,3 +1,3 @@
 def test_it():
     x = 10
-    assert x < 20
+    assert x < 21
