@@ -1,0 +1,40 @@
+name: t4h
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pywin32
+  - pip
+  - pkg-config
+  - tesseract=5.2.0
+  - pip:
+    - opencv-python==4.8.0.74
+    - transitions
+    - mss
+    - numpy
+    - mouse
+    - coverage
+    - keyboard
+    - beautifultable
+    - pytweening
+    - requests
+    - pytest
+    - pytest-env
+    - pytest-pythonpath
+    - pytest-mock
+    - graphviz
+    - psutil
+    - cryptography
+    - pillow
+    - parse
+    - typing_extensions
+    - colorama
+    - dataclasses-json
+    - pyparsing
+    - scipy
+    - matplotlib
+    - numba
+    - black
+    - pre-commit
+    - dependencies/tesserocr-2.5.2-cp311-cp311-win_amd64.whl
