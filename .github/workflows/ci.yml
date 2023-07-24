@@ -30,8 +30,8 @@ jobs:
           environment.yml
         if: steps.cache.outputs.cache-hit != 'true'
 
-      - name: PowerShell Core
-        shell: pwsh
+      - name: Powershell Check
+        shell: powershell
         run: |
           conda info
           conda list
